@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "700BC2AF-4C01-4359-8783-8960B8120D6A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53BFFD41-7872-42A0-8690-8E8F1376C721"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OlaMoneySampleApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "checkElgClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53BFFD41-7872-42A0-8690-8E8F1376C721 - cfb31dbe09a15ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Bool, OlaMoneySampleApp.SampleAppError&gt;) -&gt; () in OlaMoneySampleApp.ViewController.checkElgClicked(Any) -&gt; ()"
+                  moduleName = "OlaMoneySampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashish.jain/Documents/Github/PayUOlaMoneySDK/OlaMoneySampleApp/SampleApp/OlaMoneySampleApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1340">
+               </Location>
+               <Location
+                  uuid = "53BFFD41-7872-42A0-8690-8E8F1376C721 - 34011a7c38af60c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;PayUOlaMoneySDK.PayUOMEligibilityModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Result&lt;Swift.Bool, OlaMoneySampleApp.SampleAppError&gt;) -&gt; () in OlaMoneySampleApp.ViewController.checkElgClicked(Any) -&gt; ()"
+                  moduleName = "OlaMoneySampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashish.jain/Documents/Github/PayUOlaMoneySDK/OlaMoneySampleApp/SampleApp/OlaMoneySampleApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "53BFFD41-7872-42A0-8690-8E8F1376C721 - 578f4e0607e9f6a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Bool, Swift.Optional&lt;PayUOlaMoneySDK.PayUOMEligibilityModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Result&lt;Swift.Bool, OlaMoneySampleApp.SampleAppError&gt;) -&gt; () in OlaMoneySampleApp.ViewController.checkElgClicked(Any) -&gt; ()"
+                  moduleName = "OlaMoneySampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashish.jain/Documents/Github/PayUOlaMoneySDK/OlaMoneySampleApp/SampleApp/OlaMoneySampleApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,4 @@
+framework module PayUOlaMoneySDK {
+  header "PayUOlaMoneySDK-Swift.h"
+  requires objc
+}
