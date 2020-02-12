@@ -6,79 +6,59 @@
 	<dict>
 		<key>Headers/PayUOlaMoneySDK-Swift.h</key>
 		<data>
-		KZ86U9lc5D6hw7GYLzhRy8Ihxfw=
+		8j5lxuAj4XnZVaV9CWs5zjyLiHA=
 		</data>
-		<key>Headers/payu_olaMoney_ios_sdk.h</key>
+		<key>Headers/PayUOlaMoneySDK.h</key>
 		<data>
-		QqJYEhLeps1j4wrq1oUYRTMK/g8=
+		mgQr4tNJrmAlGJPpspI0xteZJP4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hncoHWe35jHrjhjYX5Bbm2Z/mCA=
+		VuyJCLi9SpWBHte+bRmepHsmm4k=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		taKcP+pMvHDtRW24LBiB/1NsdMg=
-		</data>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftinterface</key>
-		<data>
-		Xo0EPsfqDt4qN0KNQlskMAgcMvU=
+		LKbdu08r8TNc1cQNgpL60fjZIGs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		7la8EfGR+XAv+moiAlPO1O7OSu4=
+		sOfCCfNrC2o+4/VhH1qhGLqpBCE=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		FdoyTusHUsjaGZEHNd6vDyjqnqs=
-		</data>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		JR9kPJDW4fHB3FXaSnCD2eIgXoI=
+		S3R64LRcM9lfSmzkSlOiSoMMvW0=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0rfNzOTrg/7+NHugdiwzkbwDpZE=
+		E0l6hv/6pf/xPAHAesa1O3nXyCs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		FdoyTusHUsjaGZEHNd6vDyjqnqs=
-		</data>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		JR9kPJDW4fHB3FXaSnCD2eIgXoI=
+		S3R64LRcM9lfSmzkSlOiSoMMvW0=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		0rfNzOTrg/7+NHugdiwzkbwDpZE=
+		E0l6hv/6pf/xPAHAesa1O3nXyCs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		taKcP+pMvHDtRW24LBiB/1NsdMg=
-		</data>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<data>
-		Xo0EPsfqDt4qN0KNQlskMAgcMvU=
+		LKbdu08r8TNc1cQNgpL60fjZIGs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		7la8EfGR+XAv+moiAlPO1O7OSu4=
+		sOfCCfNrC2o+4/VhH1qhGLqpBCE=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		taKcP+pMvHDtRW24LBiB/1NsdMg=
-		</data>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftinterface</key>
-		<data>
-		Xo0EPsfqDt4qN0KNQlskMAgcMvU=
+		LKbdu08r8TNc1cQNgpL60fjZIGs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		7la8EfGR+XAv+moiAlPO1O7OSu4=
+		sOfCCfNrC2o+4/VhH1qhGLqpBCE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		cif0BlKtOBEr+wpyDZyx8D+g/fU=
+		wa+iTWB45CsOtPqBrFKZ3Vl5XYs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -87,198 +67,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KZ86U9lc5D6hw7GYLzhRy8Ihxfw=
+			8j5lxuAj4XnZVaV9CWs5zjyLiHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yXnOdlfk+UwD6lvPr4wShP5FaIdhNALTV4nMXbhH578=
+			4XBubHMlYfhS7E3JwIDTO7+FwU81+yq6bhonSOW5r3I=
 			</data>
 		</dict>
-		<key>Headers/payu_olaMoney_ios_sdk.h</key>
+		<key>Headers/PayUOlaMoneySDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QqJYEhLeps1j4wrq1oUYRTMK/g8=
+			mgQr4tNJrmAlGJPpspI0xteZJP4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zCYPUl4BWAuG3y4zMSCR+O5oxyW8wfpXadIrGaPDjdI=
+			pcc3BpsszboVMZnw3aVcLi2q1G8b71o3v030KteXkkA=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			taKcP+pMvHDtRW24LBiB/1NsdMg=
+			LKbdu08r8TNc1cQNgpL60fjZIGs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aRzMjdiXMHy+/EuUITUz3trMYX/ZmlYHCAV0ZV7M704=
-			</data>
-		</dict>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xo0EPsfqDt4qN0KNQlskMAgcMvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			SP7TXXw6xA3LDjLOpH5b8LTCr08xGMo6jyzmqIhLgzk=
+			M8A/8y7+mNK9SsdN3FlsLSjLL+PKG3lCgvwMvAqFntY=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7la8EfGR+XAv+moiAlPO1O7OSu4=
+			sOfCCfNrC2o+4/VhH1qhGLqpBCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PfLGAjo0hFCjy7YBobDEQf1H9PtLsDN6SQg9f8YVcjU=
+			KpPwsa7pnN6VVXaNZrSH9zdb4BGKshzpHgcxwafXI4k=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FdoyTusHUsjaGZEHNd6vDyjqnqs=
+			S3R64LRcM9lfSmzkSlOiSoMMvW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y9FYDo5T0pNfjMEDGLGqD2/W+iD9Tb/q6Rh/XLXUESo=
-			</data>
-		</dict>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JR9kPJDW4fHB3FXaSnCD2eIgXoI=
-			</data>
-			<key>hash2</key>
-			<data>
-			nHTwQpruME7AVARZn9TKhFzfBfqC2EI1N1pE9aQzPMI=
+			ezaOh2rRX3IBv9S32Iw6K7JppAQcde5sDL77nyTB7w8=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0rfNzOTrg/7+NHugdiwzkbwDpZE=
+			E0l6hv/6pf/xPAHAesa1O3nXyCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			K/HjJaTgAQ/+Fg8cjStdv4stlP9MtG4+AFSu5tr3kDI=
+			HcZO5f42atYyHVNOh5xusJxPyYi14nKBPh84RhI519s=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FdoyTusHUsjaGZEHNd6vDyjqnqs=
+			S3R64LRcM9lfSmzkSlOiSoMMvW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y9FYDo5T0pNfjMEDGLGqD2/W+iD9Tb/q6Rh/XLXUESo=
-			</data>
-		</dict>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JR9kPJDW4fHB3FXaSnCD2eIgXoI=
-			</data>
-			<key>hash2</key>
-			<data>
-			nHTwQpruME7AVARZn9TKhFzfBfqC2EI1N1pE9aQzPMI=
+			ezaOh2rRX3IBv9S32Iw6K7JppAQcde5sDL77nyTB7w8=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0rfNzOTrg/7+NHugdiwzkbwDpZE=
+			E0l6hv/6pf/xPAHAesa1O3nXyCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			K/HjJaTgAQ/+Fg8cjStdv4stlP9MtG4+AFSu5tr3kDI=
+			HcZO5f42atYyHVNOh5xusJxPyYi14nKBPh84RhI519s=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			taKcP+pMvHDtRW24LBiB/1NsdMg=
+			LKbdu08r8TNc1cQNgpL60fjZIGs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aRzMjdiXMHy+/EuUITUz3trMYX/ZmlYHCAV0ZV7M704=
-			</data>
-		</dict>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xo0EPsfqDt4qN0KNQlskMAgcMvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			SP7TXXw6xA3LDjLOpH5b8LTCr08xGMo6jyzmqIhLgzk=
+			M8A/8y7+mNK9SsdN3FlsLSjLL+PKG3lCgvwMvAqFntY=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7la8EfGR+XAv+moiAlPO1O7OSu4=
+			sOfCCfNrC2o+4/VhH1qhGLqpBCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PfLGAjo0hFCjy7YBobDEQf1H9PtLsDN6SQg9f8YVcjU=
+			KpPwsa7pnN6VVXaNZrSH9zdb4BGKshzpHgcxwafXI4k=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			taKcP+pMvHDtRW24LBiB/1NsdMg=
+			LKbdu08r8TNc1cQNgpL60fjZIGs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aRzMjdiXMHy+/EuUITUz3trMYX/ZmlYHCAV0ZV7M704=
-			</data>
-		</dict>
-		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xo0EPsfqDt4qN0KNQlskMAgcMvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			SP7TXXw6xA3LDjLOpH5b8LTCr08xGMo6jyzmqIhLgzk=
+			M8A/8y7+mNK9SsdN3FlsLSjLL+PKG3lCgvwMvAqFntY=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7la8EfGR+XAv+moiAlPO1O7OSu4=
+			sOfCCfNrC2o+4/VhH1qhGLqpBCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PfLGAjo0hFCjy7YBobDEQf1H9PtLsDN6SQg9f8YVcjU=
+			KpPwsa7pnN6VVXaNZrSH9zdb4BGKshzpHgcxwafXI4k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cif0BlKtOBEr+wpyDZyx8D+g/fU=
+			wa+iTWB45CsOtPqBrFKZ3Vl5XYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z9b2IGqYSHFOJq0rU4hOPyU+jOnUCPVDqiUeot+7dBM=
+			BoFjg06unkSNeaHoN9MbWm6euesn9VCgiHtFWPyWqxA=
 			</data>
 		</dict>
 	</dict>

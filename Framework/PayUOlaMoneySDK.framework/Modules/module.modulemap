@@ -1,4 +1,11 @@
 framework module PayUOlaMoneySDK {
-  header "PayUOlaMoneySDK-Swift.h"
-  requires objc
+  umbrella header "PayUOlaMoneySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PayUOlaMoneySDK.Swift {
+    header "PayUOlaMoneySDK-Swift.h"
+    requires objc
 }
