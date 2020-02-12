@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         		= "PayUIndia-OlaMoney"
-  s.version   		    = "1.0.0"
+  s.version   		    = "1.0.1"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/payu-olamoney-ios"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
