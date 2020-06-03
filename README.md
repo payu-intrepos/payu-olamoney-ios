@@ -20,12 +20,12 @@ __PayUOlaMoneySDK__: This contains all APIs, Error Codes, Request builder etc. W
 
 Add following line in to your Podfile
 ```
-pod 'PayUIndia-OlaMoneySDK'
+pod 'PayUIndia-OlaMoney'
 ```
 
 ##### Manual integration
-1. Download the framework files from here. [Files yet to be uploaded]
-2. Link to your project......etc etc
+1. Download the framework files from here. https://github.com/payu-intrepos/payu-olamoney-ios/releases
+2. Link to your project.
 
 
 ##### Make UPI Payments
