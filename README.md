@@ -116,7 +116,7 @@ pod 'PayUIndia-OlaMoney'
 8. (Optional) Use the custom browser to load data using following code.
 
     ```
-    let customBrowser = try? PUCBWebVC(postParam: postData, url: PayUOMSecureEndPoint.securePayment.baseURL, merchantKey: "smsplus")
+    let customBrowser = try? PUCBWebVC(postParam: postData, url: PayUOMSecureEndPoint.securePayment().baseURL, merchantKey: "smsplus")
     customBrowser?.cbWebVCDelegate = self
     let navVC = UINavigationController(rootViewController: customBrowser!)
     self.present(navVC, animated: true, completion: nil)
