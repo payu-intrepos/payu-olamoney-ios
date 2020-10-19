@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         		= "PayUIndia-OlaMoney"
-  s.version   		    = "1.0.1"
+  s.version   		    = "1.0.2"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/payu-olamoney-ios"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = "10.0"
   s.vendored_frameworks = 'Framework/PayUOlaMoneySDK.framework'
-  s.dependency            'PayUIndia-Logger', '1.0.1'
-  s.dependency            'PayUIndia-Networking', '1.0.1'
+  s.dependency            'PayUIndia-Networking', '2.0.1'
 
 end

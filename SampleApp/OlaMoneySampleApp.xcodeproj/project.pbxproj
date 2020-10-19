@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66E983D7253D924600070081 /* PayULoggerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E983D5253D924600070081 /* PayULoggerKit.framework */; };
+		66E983D8253D924600070081 /* PayULoggerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66E983D5253D924600070081 /* PayULoggerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		66E983D9253D924600070081 /* PayUNetworkingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E983D6253D924600070081 /* PayUNetworkingKit.framework */; };
+		66E983DA253D924600070081 /* PayUNetworkingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66E983D6253D924600070081 /* PayUNetworkingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		66E983DC253D9AAF00070081 /* PayUOlaMoneySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E983DB253D9AAF00070081 /* PayUOlaMoneySDK.framework */; };
+		66E983DD253D9AAF00070081 /* PayUOlaMoneySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66E983DB253D9AAF00070081 /* PayUOlaMoneySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF77E4B923E0322C00CB1092 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF77E4B823E0322C00CB1092 /* libz.tbd */; };
 		CF9FE18E23D5C3DA001E94D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9FE18D23D5C3DA001E94D0 /* AppDelegate.swift */; };
 		CF9FE19023D5C3DA001E94D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9FE18F23D5C3DA001E94D0 /* SceneDelegate.swift */; };
@@ -17,12 +23,6 @@
 		CF9FE21E23DB1780001E94D0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9FE21D23DB1780001E94D0 /* APIManager.swift */; };
 		CFC9852223EC26930039493F /* PayUCustomBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9851A23EC26170039493F /* PayUCustomBrowser.framework */; };
 		CFC9852323EC26930039493F /* PayUCustomBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9851A23EC26170039493F /* PayUCustomBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CFC9852423EC26940039493F /* PayULogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9851C23EC26180039493F /* PayULogger.framework */; };
-		CFC9852523EC26940039493F /* PayULogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9851C23EC26180039493F /* PayULogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CFC9852623EC26960039493F /* PayUNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9851B23EC26180039493F /* PayUNetworking.framework */; };
-		CFC9852723EC26960039493F /* PayUNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9851B23EC26180039493F /* PayUNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CFC9852823EC26990039493F /* PayUOlaMoneySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9852023EC26270039493F /* PayUOlaMoneySDK.framework */; };
-		CFC9852923EC26990039493F /* PayUOlaMoneySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFC9852023EC26270039493F /* PayUOlaMoneySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,9 +33,9 @@
 			dstSubfolderSpec = 10;
 			files = (
 				CFC9852323EC26930039493F /* PayUCustomBrowser.framework in Embed Frameworks */,
-				CFC9852523EC26940039493F /* PayULogger.framework in Embed Frameworks */,
-				CFC9852923EC26990039493F /* PayUOlaMoneySDK.framework in Embed Frameworks */,
-				CFC9852723EC26960039493F /* PayUNetworking.framework in Embed Frameworks */,
+				66E983DA253D924600070081 /* PayUNetworkingKit.framework in Embed Frameworks */,
+				66E983DD253D9AAF00070081 /* PayUOlaMoneySDK.framework in Embed Frameworks */,
+				66E983D8253D924600070081 /* PayULoggerKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		33996C9569A47536505211B0 /* Pods_OlaMoneySampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OlaMoneySampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E983D5253D924600070081 /* PayULoggerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayULoggerKit.framework; path = ../Dependencies/PayULoggerKit.framework; sourceTree = "<group>"; };
+		66E983D6253D924600070081 /* PayUNetworkingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayUNetworkingKit.framework; path = ../Dependencies/PayUNetworkingKit.framework; sourceTree = "<group>"; };
+		66E983DB253D9AAF00070081 /* PayUOlaMoneySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayUOlaMoneySDK.framework; path = ../Framework/PayUOlaMoneySDK.framework; sourceTree = "<group>"; };
 		CF77E4B523E0312700CB1092 /* OlaMoneySampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OlaMoneySampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		CF77E4B823E0322C00CB1092 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CF9FE18A23D5C3DA001E94D0 /* OlaMoneySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaMoneySampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,9 +60,6 @@
 		CF9FE1A823D5C4A8001E94D0 /* payu_olaMoney_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = payu_olaMoney_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9FE21D23DB1780001E94D0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		CFC9851A23EC26170039493F /* PayUCustomBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayUCustomBrowser.framework; path = ../../Dependencies/PayUCustomBrowser.framework; sourceTree = "<group>"; };
-		CFC9851B23EC26180039493F /* PayUNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayUNetworking.framework; path = ../../Dependencies/PayUNetworking.framework; sourceTree = "<group>"; };
-		CFC9851C23EC26180039493F /* PayULogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayULogger.framework; path = ../../Dependencies/PayULogger.framework; sourceTree = "<group>"; };
-		CFC9852023EC26270039493F /* PayUOlaMoneySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayUOlaMoneySDK.framework; path = ../../PayUOlaMoneySDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +68,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF77E4B923E0322C00CB1092 /* libz.tbd in Frameworks */,
-				CFC9852623EC26960039493F /* PayUNetworking.framework in Frameworks */,
-				CFC9852823EC26990039493F /* PayUOlaMoneySDK.framework in Frameworks */,
+				66E983D7253D924600070081 /* PayULoggerKit.framework in Frameworks */,
+				66E983DC253D9AAF00070081 /* PayUOlaMoneySDK.framework in Frameworks */,
 				CFC9852223EC26930039493F /* PayUCustomBrowser.framework in Frameworks */,
-				CFC9852423EC26940039493F /* PayULogger.framework in Frameworks */,
+				66E983D9253D924600070081 /* PayUNetworkingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +99,7 @@
 		CF9FE18C23D5C3DA001E94D0 /* OlaMoneySampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				CFC9852023EC26270039493F /* PayUOlaMoneySDK.framework */,
 				CFC9851A23EC26170039493F /* PayUCustomBrowser.framework */,
-				CFC9851C23EC26180039493F /* PayULogger.framework */,
-				CFC9851B23EC26180039493F /* PayUNetworking.framework */,
 				CF9FE21C23DB176C001E94D0 /* Networking */,
 				CF9FE18D23D5C3DA001E94D0 /* AppDelegate.swift */,
 				CF9FE18F23D5C3DA001E94D0 /* SceneDelegate.swift */,
@@ -118,6 +115,9 @@
 		CF9FE1A723D5C4A8001E94D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66E983DB253D9AAF00070081 /* PayUOlaMoneySDK.framework */,
+				66E983D5253D924600070081 /* PayULoggerKit.framework */,
+				66E983D6253D924600070081 /* PayUNetworkingKit.framework */,
 				CF77E4B823E0322C00CB1092 /* libz.tbd */,
 				CF9FE1A823D5C4A8001E94D0 /* payu_olaMoney_ios_sdk.framework */,
 				33996C9569A47536505211B0 /* Pods_OlaMoneySampleApp.framework */,
@@ -359,10 +359,8 @@
 				DEVELOPMENT_TEAM = 3T2M5UN5C5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/OlaMoneySampleApp",
-					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/..\"",
-					"\"$(SRCROOT)/../Dependencies",
+					"\"$(SRCROOT)/../Framework\"",
+					"\"$(SRCROOT)/../Dependencies\"",
 				);
 				INFOPLIST_FILE = OlaMoneySampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -388,10 +386,8 @@
 				DEVELOPMENT_TEAM = 3T2M5UN5C5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/OlaMoneySampleApp",
-					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/..\"",
-					"\"$(SRCROOT)/../Dependencies",
+					"\"$(SRCROOT)/../Framework\"",
+					"\"$(SRCROOT)/../Dependencies\"",
 				);
 				INFOPLIST_FILE = OlaMoneySampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

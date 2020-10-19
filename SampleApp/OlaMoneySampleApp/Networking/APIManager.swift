@@ -8,7 +8,7 @@
 
 import Foundation
 import PayUOlaMoneySDK
-import PayUNetworking
+import PayUNetworkingKit
 
 enum SampleAppError: Error {
     static let internetUnavailable = "Please check you internet connection"

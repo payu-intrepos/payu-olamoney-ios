@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
         eligibilityLabel.text = ""
         phoneNumberTextField.delegate = self
-        setupParamsAndHashes()
+        setupParams()
     }
 
 
@@ -34,12 +34,18 @@ class ViewController: UIViewController {
         phoneNumberTextField.resignFirstResponder()
         eligibilityLabel.text = ""
         makePaymentButton.isEnabled = false
+        
+        guard let paymentParams = paymentParams else {
+            return
+        }
 
-        fetchHashes(withParams: paymentParams!) { (result) in
-            let hashStr = "smsplus|get_eligible_payment_options|" + PayUOMCoreUtils.getJsonStringForElegibilityAPI(fromParams: self.paymentParams!) + "|1b1b0"
+        fetchHashes(withParams: paymentParams) { (result) in
+            
+            // This is for testing purpose, always calculate hash on your server side for better security
+            let hashStr = "smsplus|get_eligible_payment_options|" + PayUOMCoreUtils.getJsonStringForElegibilityAPI(fromParams: paymentParams) + "|1b1b0"
             self.paymentParams?.hashes?.eligibilityHash = hashStr.sha512()
 
-            PayUOMCore.shared.checkEligibility(params: self.paymentParams!, completion: { [unowned self] status, response, error in
+            PayUOMCore.shared.checkEligibility(params: paymentParams, completion: { [unowned self] status, response, error in
                 DispatchQueue.main.async {
                     self.makePaymentButton.isEnabled = status
                     if (error != nil) {
@@ -55,7 +61,7 @@ class ViewController: UIViewController {
     @IBAction func makePaymentClicked(_ sender: Any) {
         DispatchQueue.main.async {
             let postData = PayUOMCore.shared.getPostData(params: self.paymentParams!)
-            let customBrowser = try? PUCBWebVC(postParam: postData, url: PayUOMSecureEndPoint.securePayment.baseURL, merchantKey: "smsplus")
+            let customBrowser = try? PUCBWebVC(postParam: postData, url: PayUOMSecureEndPoint.securePayment().baseURL, merchantKey: "smsplus")
             customBrowser?.cbWebVCDelegate = self
             let navVC = UINavigationController(rootViewController: customBrowser!)
             self.presentedVC = navVC
@@ -64,7 +70,7 @@ class ViewController: UIViewController {
     }
 
 
-    func setupParamsAndHashes() {
+    func setupParams() {
         PayUOMCore.shared.environment = .production
         PayUOMCore.shared.logLevel = .verbose
         do {
@@ -75,7 +81,7 @@ class ViewController: UIViewController {
                 productInfo: "iPhone", // Description of the product
                 firstName: "Ashish", lastName: "Jain", // First name of the user
                 email: "johnappleseed@payu.in",// Email of the useer
-                phoneNumber: phoneNumberTextField.text ?? "9717063173", // Phone of user
+                phoneNumber: phoneNumberTextField.text ?? "9876543210", // Phone of user
                 //User defined parameters.
                 //You can save additional details with each txn if you need them for your business logic.
                 //You will get these details back in payment response and transaction verify API
@@ -95,19 +101,19 @@ class ViewController: UIViewController {
             paymentParams?.furl = "https://payu.herokuapp.com/ios_failure"
             paymentParams?.offerKey = "cardnumber@8370,cardnumbers2@8380,for particular bins@8427,srioffer@8428,cc2@8429"
         } catch let error {
-            //            Helper.showAlert("Could not create post params due to: \(error.localizedDescription)", onController: self)
-        }
-
-        fetchHashes(withParams: paymentParams!) { (result) in
-            let hashStr = "smsplus|get_eligible_payment_options|" + PayUOMCoreUtils.getJsonStringForElegibilityAPI(fromParams: self.paymentParams!) + "|1b1b0"
-            self.paymentParams?.hashes?.eligibilityHash = hashStr.sha512()
+            print(error.localizedDescription)
+            return
         }
     }
     
     func fetchHashes(withParams params: PayUOMPaymentParams,
                      completion: @escaping(Result<Bool, SampleAppError> )->()) {
         
-        APIManager().getHashes(params: paymentParams!) {[weak self] (hashes, error) in
+        guard let paymentParams = paymentParams else {
+            return
+        }
+        
+        APIManager().getHashes(params: paymentParams) {[weak self] (hashes, error) in
             guard let self = self else { return }
             
             if let error = error {
@@ -127,7 +133,7 @@ class ViewController: UIViewController {
     }
     
     func getPayUHashesModel(fromHashes hashes: Hashes) -> PayUOMHashes{
-        var payuHashes = PayUOMHashes()
+        let payuHashes = PayUOMHashes()
         payuHashes.paymentHash = hashes.paymentHash
         
         return payuHashes
@@ -138,7 +144,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
-        paymentParams?.phoneNumber = textField.text ?? "9717063173"
+        paymentParams?.phoneNumber = textField.text ?? "9876543210"
     }
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

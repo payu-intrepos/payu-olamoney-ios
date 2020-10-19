@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,25 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="9717063173" borderStyle="roundedRect" placeholder="Enter Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-GP-uhu">
-                                <rect key="frame" x="171.5" y="84" width="212.5" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="9876543210" borderStyle="roundedRect" placeholder="Enter Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-GP-uhu">
+                                <rect key="frame" x="171" y="84" width="213" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehc-bG-KaM">
-                                <rect key="frame" x="26" y="90.5" width="119.5" height="21"/>
+                                <rect key="frame" x="26" y="90.5" width="119" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSR-x3-sZg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSR-x3-sZg">
                                 <rect key="frame" x="26" y="145" width="109" height="30"/>
                                 <state key="normal" title="Check Eligibility"/>
                                 <connections>
                                     <action selector="checkElgClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="83e-Go-7YG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHe-Ig-SLC">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHe-Ig-SLC">
                                 <rect key="frame" x="227" y="145" width="101" height="30"/>
                                 <state key="normal" title="Make Payment"/>
                                 <connections>
@@ -48,7 +49,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="kSR-x3-sZg" firstAttribute="top" secondItem="ehc-bG-KaM" secondAttribute="bottom" constant="33.5" id="2dS-ES-QNf"/>
                             <constraint firstItem="FAP-GP-uhu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="3ff-E3-l70"/>
@@ -62,10 +64,8 @@
                             <constraint firstItem="Cb7-NT-D9T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tVr-3s-1zE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FAP-GP-uhu" secondAttribute="trailing" constant="30" id="yqt-C5-501"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="elegebilityLabel" destination="kSR-x3-sZg" id="M5W-le-pfG"/>
                         <outlet property="eligibilityLabel" destination="Cb7-NT-D9T" id="62y-FR-GzE"/>
                         <outlet property="makePaymentButton" destination="pHe-Ig-SLC" id="u0i-zG-UAF"/>
                         <outlet property="phoneNumberTextField" destination="FAP-GP-uhu" id="OOZ-eO-41t"/>
@@ -76,4 +76,9 @@
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

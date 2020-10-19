@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PayUOlaMoneySDK-Swift.h</key>
 		<data>
-		8j5lxuAj4XnZVaV9CWs5zjyLiHA=
+		IYqUCXuvzThJk0cObgJwkqeiKsQ=
 		</data>
 		<key>Headers/PayUOlaMoneySDK.h</key>
 		<data>
@@ -14,47 +14,87 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VuyJCLi9SpWBHte+bRmepHsmm4k=
+		vzjefLdbB6ykm6XIkYH2L3kllF8=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<data>
+		bh1qZQ2Tfk1U6bENkHendWitLbk=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<data>
+		NxC2qrNSyJ2+WRQi8Xb5ug/kJSA=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		NxC2qrNSyJ2+WRQi8Xb5ug/kJSA=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<data>
+		bh1qZQ2Tfk1U6bENkHendWitLbk=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<data>
+		bh1qZQ2Tfk1U6bENkHendWitLbk=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		LKbdu08r8TNc1cQNgpL60fjZIGs=
+		3wdIQvJC1gmahs5M6qeBlS0VoH8=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftinterface</key>
+		<data>
+		gWBAP1c+4tA1cnvYKPytePmwjYs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		sOfCCfNrC2o+4/VhH1qhGLqpBCE=
+		o5zH1fYYQcChKO8OBHKXUHn2boI=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		S3R64LRcM9lfSmzkSlOiSoMMvW0=
+		RPYDwSNL8F3FgHBjGfL1vhQPdhE=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		7aHKK2Ux8o3Vewpjt7EahZk70Uk=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		E0l6hv/6pf/xPAHAesa1O3nXyCs=
+		MRW5EbpJTzIvoNxF5xX7Wz2wJ38=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		S3R64LRcM9lfSmzkSlOiSoMMvW0=
+		RPYDwSNL8F3FgHBjGfL1vhQPdhE=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		7aHKK2Ux8o3Vewpjt7EahZk70Uk=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		E0l6hv/6pf/xPAHAesa1O3nXyCs=
+		MRW5EbpJTzIvoNxF5xX7Wz2wJ38=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		LKbdu08r8TNc1cQNgpL60fjZIGs=
+		3wdIQvJC1gmahs5M6qeBlS0VoH8=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
+		<data>
+		gWBAP1c+4tA1cnvYKPytePmwjYs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		sOfCCfNrC2o+4/VhH1qhGLqpBCE=
+		o5zH1fYYQcChKO8OBHKXUHn2boI=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		LKbdu08r8TNc1cQNgpL60fjZIGs=
+		3wdIQvJC1gmahs5M6qeBlS0VoH8=
+		</data>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftinterface</key>
+		<data>
+		gWBAP1c+4tA1cnvYKPytePmwjYs=
 		</data>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		sOfCCfNrC2o+4/VhH1qhGLqpBCE=
+		o5zH1fYYQcChKO8OBHKXUHn2boI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8j5lxuAj4XnZVaV9CWs5zjyLiHA=
+			IYqUCXuvzThJk0cObgJwkqeiKsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4XBubHMlYfhS7E3JwIDTO7+FwU81+yq6bhonSOW5r3I=
+			k8M4BlVOnIYhTk8/hx9UTR/23iBDwVCwpmzq5GhTQCc=
 			</data>
 		</dict>
 		<key>Headers/PayUOlaMoneySDK.h</key>
@@ -85,114 +125,224 @@
 			pcc3BpsszboVMZnw3aVcLi2q1G8b71o3v030KteXkkA=
 			</data>
 		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bh1qZQ2Tfk1U6bENkHendWitLbk=
+			</data>
+			<key>hash2</key>
+			<data>
+			/x1t2H625qnEQP52ay9jZSb6aiayqCVkIrOT5Mxizmk=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NxC2qrNSyJ2+WRQi8Xb5ug/kJSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5oLDvVBAoTsru7+VecnysvRA+jkBnBkxXxoLY5RFrTs=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NxC2qrNSyJ2+WRQi8Xb5ug/kJSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5oLDvVBAoTsru7+VecnysvRA+jkBnBkxXxoLY5RFrTs=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bh1qZQ2Tfk1U6bENkHendWitLbk=
+			</data>
+			<key>hash2</key>
+			<data>
+			/x1t2H625qnEQP52ay9jZSb6aiayqCVkIrOT5Mxizmk=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bh1qZQ2Tfk1U6bENkHendWitLbk=
+			</data>
+			<key>hash2</key>
+			<data>
+			/x1t2H625qnEQP52ay9jZSb6aiayqCVkIrOT5Mxizmk=
+			</data>
+		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LKbdu08r8TNc1cQNgpL60fjZIGs=
+			3wdIQvJC1gmahs5M6qeBlS0VoH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			M8A/8y7+mNK9SsdN3FlsLSjLL+PKG3lCgvwMvAqFntY=
+			b4xH4IfMVfr5nq88+24cxi22ysNxZq1Hf4n0EDkPeSk=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gWBAP1c+4tA1cnvYKPytePmwjYs=
+			</data>
+			<key>hash2</key>
+			<data>
+			zOg1bM9RPtxuL+lQ4xILAdkrXmX/TyKarz1CgftqCpw=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sOfCCfNrC2o+4/VhH1qhGLqpBCE=
+			o5zH1fYYQcChKO8OBHKXUHn2boI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KpPwsa7pnN6VVXaNZrSH9zdb4BGKshzpHgcxwafXI4k=
+			qC7rQ0hT74SaZAlfVi8TqcltbV05duJsEznr4gTVcWI=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S3R64LRcM9lfSmzkSlOiSoMMvW0=
+			RPYDwSNL8F3FgHBjGfL1vhQPdhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ezaOh2rRX3IBv9S32Iw6K7JppAQcde5sDL77nyTB7w8=
+			DwRUd70Jd0myLOVPItMiYcz2at4AmKd7YR/mmQ1hTJk=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7aHKK2Ux8o3Vewpjt7EahZk70Uk=
+			</data>
+			<key>hash2</key>
+			<data>
+			wfXIWl4d/tvqRhCTJq0gWHSt3es+ChcXvHkKdMPDSt8=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E0l6hv/6pf/xPAHAesa1O3nXyCs=
+			MRW5EbpJTzIvoNxF5xX7Wz2wJ38=
 			</data>
 			<key>hash2</key>
 			<data>
-			HcZO5f42atYyHVNOh5xusJxPyYi14nKBPh84RhI519s=
+			KzBjrlGNBw2KB/8VAUPjrBHH34Ajnl4tjq0yMeWCiG0=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S3R64LRcM9lfSmzkSlOiSoMMvW0=
+			RPYDwSNL8F3FgHBjGfL1vhQPdhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ezaOh2rRX3IBv9S32Iw6K7JppAQcde5sDL77nyTB7w8=
+			DwRUd70Jd0myLOVPItMiYcz2at4AmKd7YR/mmQ1hTJk=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7aHKK2Ux8o3Vewpjt7EahZk70Uk=
+			</data>
+			<key>hash2</key>
+			<data>
+			wfXIWl4d/tvqRhCTJq0gWHSt3es+ChcXvHkKdMPDSt8=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E0l6hv/6pf/xPAHAesa1O3nXyCs=
+			MRW5EbpJTzIvoNxF5xX7Wz2wJ38=
 			</data>
 			<key>hash2</key>
 			<data>
-			HcZO5f42atYyHVNOh5xusJxPyYi14nKBPh84RhI519s=
+			KzBjrlGNBw2KB/8VAUPjrBHH34Ajnl4tjq0yMeWCiG0=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LKbdu08r8TNc1cQNgpL60fjZIGs=
+			3wdIQvJC1gmahs5M6qeBlS0VoH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			M8A/8y7+mNK9SsdN3FlsLSjLL+PKG3lCgvwMvAqFntY=
+			b4xH4IfMVfr5nq88+24cxi22ysNxZq1Hf4n0EDkPeSk=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gWBAP1c+4tA1cnvYKPytePmwjYs=
+			</data>
+			<key>hash2</key>
+			<data>
+			zOg1bM9RPtxuL+lQ4xILAdkrXmX/TyKarz1CgftqCpw=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sOfCCfNrC2o+4/VhH1qhGLqpBCE=
+			o5zH1fYYQcChKO8OBHKXUHn2boI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KpPwsa7pnN6VVXaNZrSH9zdb4BGKshzpHgcxwafXI4k=
+			qC7rQ0hT74SaZAlfVi8TqcltbV05duJsEznr4gTVcWI=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LKbdu08r8TNc1cQNgpL60fjZIGs=
+			3wdIQvJC1gmahs5M6qeBlS0VoH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			M8A/8y7+mNK9SsdN3FlsLSjLL+PKG3lCgvwMvAqFntY=
+			b4xH4IfMVfr5nq88+24cxi22ysNxZq1Hf4n0EDkPeSk=
+			</data>
+		</dict>
+		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gWBAP1c+4tA1cnvYKPytePmwjYs=
+			</data>
+			<key>hash2</key>
+			<data>
+			zOg1bM9RPtxuL+lQ4xILAdkrXmX/TyKarz1CgftqCpw=
 			</data>
 		</dict>
 		<key>Modules/PayUOlaMoneySDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sOfCCfNrC2o+4/VhH1qhGLqpBCE=
+			o5zH1fYYQcChKO8OBHKXUHn2boI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KpPwsa7pnN6VVXaNZrSH9zdb4BGKshzpHgcxwafXI4k=
+			qC7rQ0hT74SaZAlfVi8TqcltbV05duJsEznr4gTVcWI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

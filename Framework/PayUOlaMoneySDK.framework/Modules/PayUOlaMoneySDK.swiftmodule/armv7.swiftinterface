@@ -1,0 +1,148 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayUOlaMoneySDK
+import Foundation
+import PayULoggerKit
+import PayUNetworkingKit
+@_exported import PayUOlaMoneySDK
+import Swift
+import UIKit
+@objc public enum PayUOMSecureEndPointType : Swift.Int {
+  case securePayment
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class PayUOMSecureEndPoint : ObjectiveC.NSObject {
+  @objc public class func securePayment() -> PayUOlaMoneySDK.PayUOMSecureEndPoint
+  @objc public var baseURL: Foundation.URL {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum PayUOMNetworkEnvironment : Swift.Int {
+  case production
+  case test
+  case mobiletest
+  case mobileDev
+  case sdkTest
+  case bizcheckouttest
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUOMAPI : ObjectiveC.NSObject {
+  public class func checkElegibility(withPaymentParams params: PayUOlaMoneySDK.PayUOMPaymentParams, completion: @escaping (Swift.Result<PayUOlaMoneySDK.PayUOMEligibilityModel, PayUOlaMoneySDK.PayUError>) -> ())
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUOMHashes : ObjectiveC.NSObject {
+  @objc public var paymentHash: Swift.String?
+  @objc public var eligibilityHash: Swift.String?
+  @objc deinit
+  @objc override dynamic public init()
+}
+public typealias PayUResponseType = Swift.Result<Swift.Dictionary<Swift.String, Any>, PayUOlaMoneySDK.PayUError>
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUOMValidationError : ObjectiveC.NSObject {
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUOMSDKError : ObjectiveC.NSObject {
+  @objc public static let socketURLError: Swift.String
+  @objc public static let decodingError: Swift.String
+  @objc public static let dataUnavailable: Swift.String
+  @objc public static let backButtonTxnCancelled: Swift.String
+  @objc public static let unknownErrorMsg: Swift.String
+  @objc public static let internetUnavailable: Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum PayUErrorType : Swift.Int {
+  case error
+  case unknownError
+  case noInternet
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objcMembers public class PayUError : Foundation.LocalizedError {
+  @objc final public let errorType: PayUOlaMoneySDK.PayUErrorType
+  @objc final public let message: Swift.String?
+  @objc public var description: Swift.String {
+    @objc get
+  }
+  public static func == (lhs: PayUOlaMoneySDK.PayUError, rhs: PayUOlaMoneySDK.PayUError) -> Swift.Bool
+  public class func error(_ message: Swift.String) -> PayUOlaMoneySDK.PayUError
+  public class func noInternet() -> PayUOlaMoneySDK.PayUError
+  public class func unknownError() -> PayUOlaMoneySDK.PayUError
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PayUOMCore : ObjectiveC.NSObject {
+  @objc public static let shared: PayUOlaMoneySDK.PayUOMCore
+  @objc public var environment: PayUOlaMoneySDK.PayUOMNetworkEnvironment
+  public var logLevel: PayULoggerKit.PayULogLevel {
+    get
+    set
+  }
+  @objc public var txnStartTime: Foundation.Date?
+  @objc public func checkEligibility(params: PayUOlaMoneySDK.PayUOMPaymentParams, completion: @escaping (Swift.Bool, PayUOlaMoneySDK.PayUOMEligibilityModel?, Swift.Error?) -> Swift.Void)
+  @objc public func getPostData(params: PayUOlaMoneySDK.PayUOMPaymentParams) -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PayUOMAnalyticsSender : ObjectiveC.NSObject {
+  @objc public class func sendOneTimeAnalytics()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers public class PayUOMCoreUtils {
+  public class func getVersionOfBundle(_ bundle: Foundation.Bundle) -> Swift.String
+  public class func getJsonStringForElegibilityAPI(fromParams params: PayUOlaMoneySDK.PayUOMPaymentParams) -> Swift.String
+  @objc deinit
+}
+@objc @objcMembers public class PayUOMPaymentParams : ObjectiveC.NSObject {
+  @objc public var merchantKey: Swift.String
+  @objc public var transactionId: Swift.String
+  @objc public var amount: Swift.String
+  @objc public var productInfo: Swift.String
+  @objc public var firstName: Swift.String
+  @objc public var lastName: Swift.String
+  @objc public var email: Swift.String
+  @objc public var phoneNumber: Swift.String
+  @objc public var udf1: Swift.String
+  @objc public var udf2: Swift.String
+  @objc public var udf3: Swift.String
+  @objc public var udf4: Swift.String
+  @objc public var udf5: Swift.String
+  @objc public var userCredentials: Swift.String?
+  @objc public var offerKey: Swift.String?
+  @objc public var hashes: PayUOlaMoneySDK.PayUOMHashes?
+  @objc public var surl: Swift.String?
+  @objc public var furl: Swift.String?
+  @objc public init(merchantKey: Swift.String, transactionId: Swift.String, amount: Swift.String, productInfo: Swift.String, firstName: Swift.String, lastName: Swift.String, email: Swift.String, phoneNumber: Swift.String, udf1: Swift.String, udf2: Swift.String, udf3: Swift.String, udf4: Swift.String, udf5: Swift.String) throws
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public class PayUOMEligibilityModel : ObjectiveC.NSObject, Swift.Codable {
+  final public let status: Swift.Int
+  final public let msg: Swift.String?
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  @objc override dynamic public init()
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension PayUOlaMoneySDK.PayUOMSecureEndPointType : Swift.Equatable {}
+extension PayUOlaMoneySDK.PayUOMSecureEndPointType : Swift.Hashable {}
+extension PayUOlaMoneySDK.PayUOMSecureEndPointType : Swift.RawRepresentable {}
+extension PayUOlaMoneySDK.PayUOMNetworkEnvironment : Swift.Equatable {}
+extension PayUOlaMoneySDK.PayUOMNetworkEnvironment : Swift.Hashable {}
+extension PayUOlaMoneySDK.PayUOMNetworkEnvironment : Swift.RawRepresentable {}
+extension PayUOlaMoneySDK.PayUErrorType : Swift.Equatable {}
+extension PayUOlaMoneySDK.PayUErrorType : Swift.Hashable {}
+extension PayUOlaMoneySDK.PayUErrorType : Swift.RawRepresentable {}
