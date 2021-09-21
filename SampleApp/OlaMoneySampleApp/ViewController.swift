@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         fetchHashes(withParams: paymentParams) { (result) in
             
             // This is for testing purpose, always calculate hash on your server side for better security
-            let hashStr = "smsplus|get_eligible_payment_options|" + PayUOMCoreUtils.getJsonStringForElegibilityAPI(fromParams: paymentParams) + "|1b1b0"
+            let hashStr = "smsplus|get_eligible_payment_options|" + PayUOMCoreUtils.getJsonStringForElegibilityAPI(fromParams: paymentParams) + "|<Please_add_test_salt_here>"
             self.paymentParams?.hashes?.eligibilityHash = hashStr.sha512()
 
             PayUOMCore.shared.checkEligibility(params: paymentParams, completion: { [unowned self] status, response, error in
